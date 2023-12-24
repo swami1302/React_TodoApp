@@ -4,7 +4,7 @@ Certainly! Below is the full README template for a TODO application with React a
 # 📝 TODO App using React and Ant Design
 
 - This project is a simple TODO application built with React and Ant Design.
-- **Live Demo:** [https://ticktodo.netlify.app/](#).
+- **Live Demo:** <a href="https://ticktodo.netlify.app/" target="_blank">ticktodo.netlify.app</a>
 
 ## 📋 Table of Contents
 
