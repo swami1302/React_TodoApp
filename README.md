@@ -71,12 +71,15 @@ The project structure follows a typical React application layout:
 
 ```
 todo-app-react-antd/
+|-- node_modules/
 |-- public/
 |   |-- index.html
 |-- src/
-|   |-- components/
 |   |-- App.js
 |   |-- index.js
+|   |-- todos.js
+|   |-- index.css
+|   |-- App.css
 |-- .gitignore
 |-- package.json
 |-- README.md
