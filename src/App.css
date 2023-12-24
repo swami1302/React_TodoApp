@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* Input and Add button styling */
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.add-button {
+  width: 100%;
+  margin: 10px;
+  padding: 5px; 
+  transition: opacity 0.15s ease;
+}
+
+.add-button:hover{
+  opacity: 0.7;
+}
+
+
+/* Filter tabs styling */
+.filter-tabs {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.filter-tabs button {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+  border: none;
+  transition: color 0.3s ease, font-weight 0.15s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.filter-tabs button.active {
+  /* background-color: #007bff; Change to blue when active */
+  color: blue;
+  font-weight: bold;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+/* Checkbox styling */
+ul li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Strikethrough style for completed tasks */
+ul li.done span {
+  text-decoration: line-through;
+}
+
+/* Edit and Delete button styling */
+ul li button {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.edit-button {
+  background-color: 007bff;
+}
+.delete-button, .delete-all-button {
+  background-color: red;
+}
+.delete-all-button:hover{
+  opacity: 0.6;
+}
+
+ul li button:hover{
+  opacity: 0.6;
+}
+.custom-delete-button {
+  color: black;
+  background-color: white; 
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3 ease;
+}
+
+.custom-delete-button:hover {
+  color: red;
+}
+
+
+/* Counter styling */
+.items-left {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: red;
+  margin-right: 500px;
+
+}
